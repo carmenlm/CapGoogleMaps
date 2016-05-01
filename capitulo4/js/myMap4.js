@@ -2,7 +2,6 @@
  * Created by carmen on 26/04/16.
  */
 
-
 (function () {
     window.onload = function () {
 
@@ -15,7 +14,7 @@
             mapTypeId: google.maps.MapTypeId.ROADMAP
         };
 
-        console.log(options);
+
         // Creo el mapa
         var map = new google.maps.Map(document.getElementById('map'), options);
 
